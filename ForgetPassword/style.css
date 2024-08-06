@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+  flex-direction: column;
+}
+#main-center {
+  width: 100%;
+  min-height: 100vh;
+}
+#main-box {
+  background-color: black;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/login/login-the-crown_2-1500x1000.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 0vw;
+}
+#main-box nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4vh;
+}
+#main-box nav img {
+  width: 17vw;
+  height: 17vh;
+}
+nav a {
+  padding: 4vh 10vw;
+  border-radius: 4px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(229, 9, 20);
+  border: none;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: serif;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(229, 9, 20);
+}
+
+#page1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  margin: 0 auto -10.417vw;
+  width: 35vw;
+  height: 83vh;
+  padding: 7vh;
+}
+
+.page-1 h1 {
+  color: #333;
+
+  font-family: sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 2.3vw;
+  /* font-weight: 600; */
+  letter-spacing: 3;
+}
+.page-1 h5 {
+  color: #444;
+  padding-top: 2.5vh;
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+#page2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.page2-up {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2vw;
+}
+.page2-down {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2vw;
+}
+#page2 label {
+  font-size: 1.2vw;
+  color: #333;
+  /* margin: 10px; */
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+input[type="radio"] {
+  /* border-radius: 50%; */
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+#page2 p {
+  color: #333;
+  padding: 3vh 0;
+  font-size: 1.25vw;
+  letter-spacing: 1;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+#page2 input {
+  height: 7vh;
+  font-size: 1.1vw;
+  padding: 0 0.7vw;
+  color: black;
+}
+
+button {
+  background-color: #0080ff;
+  width: 100%;
+  height: 9vh;
+  border: none;
+  font-size: 1.52vw;
+  margin-top: 4vh;
+}
+a {
+  color: #0080ff;
+  padding: 2vh 0;
+  font-size: 15px;
+}
+#page-3 {
+  width: 100%;
+}
+.bottom span {
+  font-size: 1vw;
+  color: rgba(225, 255, 255, 0.7);
+}
+.bottom button {
+  background-color: transparent;
+  border: none;
+  color: #0071eb;
+  cursor: pointer;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  font-size: 1vw;
+}
+
+#page3 {
+  height: 20vh;
+  background-color: black;
+  padding: 2.3vh 32vw;
+
+  
+}
+.bottom span{
+  font-size: 1.12vw;
+ 
+  color: rgba(225, 255, 255, 0.7);
+}
+
+.bottom span a {
+  font-size: 1.1vw;
+
+  color: rgba(225, 255, 255, 0.7);
+  /* color: #0071eb; */
+}
+#footer {
+  width: 100%;
+  min-height: 50vh;
+  background-color: black;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20vh 15vw;
+}
+.footer-parts ul select {
+  background-color: transparent;
+  width: 55%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-size: 1.23vw;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.footer-parts option {
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-parts ul select {
+  background-color: transparent;
+  width: 55%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-size: 1.23vw;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.footer-parts option {
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-parts ul {
+  padding-top: 2vh;
+}
+
+.footer-parts li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1vw;
+}
+.footer-parts li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1vw;
+}
+#footer-part2 {
+  padding-top: 4vh;
+}
+#footer-part3 {
+  padding-top: 4vh;
+}
+#footer-part4 {
+  padding-top: 4vh;
+}
